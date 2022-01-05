@@ -622,3 +622,5 @@ TW_LIBTAR_DEBUG := true
 TW_INCLUDE_RESETPROP := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/tz-by-name/cpu-0-0-step/temp
 TW_LOAD_VENDOR_MODULES := "ftm5.ko sec_touch.ko"
+PLATFORM_VERSION := 127
+PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
