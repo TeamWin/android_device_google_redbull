@@ -598,6 +598,9 @@ endif
 # Testing related defines
 BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/b5r3-setup.sh
 
+TARGET_RECOVERY_DEVICE_MODULES += \
+    libandroidicu
+
 # TWRP
 TW_THEME := portrait_hdpi
 BOARD_SUPPRESS_SECURE_ERASE := true
